@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Pokedex from './Pokedex';
 
+
 import './Pokegame.css';
 
 class Pokegame extends Component{
@@ -13,7 +14,7 @@ class Pokegame extends Component{
             {id: 25, name: 'Pikachu', type: 'electric', base_experience: 112},
             {id: 39, name: 'Jigglypuff', type: 'normal', base_experience: 95},
             {id: 94, name: 'Gengar', type: 'poison', base_experience: 225},
-            {id: 133, name: 'Eevee', type: 'normal', base_experience: 65}
+            {id: 133, name: 'Eevee', type: 'normal', base_experience: 65, img:"kangaroo2.jpg"}
         ]
 
     }
